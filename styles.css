@@ -1,0 +1,161 @@
+.font_para {
+  font-family: Raleway;
+  font-weight: 400;
+  font-style: normal;
+  src: url("https://fonts.shopifycdn.com/raleway/raleway_n7.a3667ec66e26be6cf49ad181eaf840ced12b23ee.woff2?h1=dGhlYWxrZW1pc3RyeS5jb20&hmac=58f4460d028d4ab60c89f005894435f671817c425f61638546d3837a01706e33")
+      format("woff2"),
+    url("https://fonts.shopifycdn.com/raleway/raleway_n7.a13ead3a5457d09b337e2abff1e1b86069507d34.woff?h1=dGhlYWxrZW1pc3RyeS5jb20&hmac=110df8f5c33bcad44ce18c25b462ea607af41724b4313c23d4215e2e5ea0bba7")
+      format("woff");
+}
+.font_heading {
+  font-family: "Linotype Didot";
+  font-weight: 400;
+  font-style: normal;
+  font-display: block;
+  src: url("https://fonts.shopifycdn.com/linotype_didot/linotypedidot_n4.4d23bbca7f0173fadc2d346db7c5965d60260fdc.woff2?h1=dGhlYWxrZW1pc3RyeS5jb20&hmac=242987021b6c86eb232bdcc154910d9c6bcb82ceb7aa2a0f8fcab82c9e813885")
+      format("woff2"),
+    url("https://fonts.shopifycdn.com/linotype_didot/linotypedidot_n4.df3e2944f0b7154456ff5b5f7d010931cb102517.woff?h1=dGhlYWxrZW1pc3RyeS5jb20&hmac=668283f834fe826902b65d4a457d75bcf3aefe67b8fde73b2427dd242f771f41")
+      format("woff");
+}
+body,
+html {
+  height: 100%;
+}
+
+/* The hero image */
+.hero-image {
+  background-image: url("Images/herobackground.jpg");
+  height: 80%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 20%;
+  transform: translate(-50%, -50%);
+  color: rgb(44, 41, 41);
+}
+.artboard {
+  background-image: url("Images/Artboard\ 2-50\ 2.jpg");
+  height: 80%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+.artboard-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 70%;
+  transform: translate(-50%, -50%);
+  color: rgb(44, 41, 41);
+}
+.artboard1 {
+  background-image: url("Images/Artboard\ 2-50.jpg");
+  height: 80%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+.artboard-text1 {
+  text-align: center;
+  position: absolute;
+  top: 140%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: rgb(44, 41, 41);
+}
+.artboard2 {
+  background-image: url("Images/Artboard\ 3-50\ 2.jpg");
+  height: 80%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  margin-top: 30%;
+  margin-bottom: 5%;
+}
+/*footer*/
+footer {
+  width: 100%;
+  background-color: rgba(248, 233, 204, 0.829);
+  min-height: 250px;
+  padding: 10px 0px 25px 0px;
+}
+.pt2 {
+  padding-top: 40px;
+  margin-bottom: 20px;
+}
+footer p {
+  font-size: 13px;
+  color: rgb(49, 47, 47);
+  padding-bottom: 0px;
+  margin-bottom: 8px;
+}
+.mb10 {
+  padding-bottom: 15px;
+}
+.footer_ul_amrc {
+  margin: 0px;
+  list-style-type: none;
+  font-size: 14px;
+  padding: 0px 0px 10px 0px;
+}
+.footer_ul_amrc li {
+  padding: 0px 0px 5px 0px;
+}
+.footer_ul_amrc li a {
+  color: rgb(49, 47, 47);
+}
+.fleft {
+  float: left;
+}
+.padding-right {
+  padding-right: 10px;
+}
+
+.footer_ul2_amrc {
+  margin: 0px;
+  list-style-type: none;
+  padding: 0px;
+}
+.footer_ul2_amrc li p {
+  display: table;
+}
+.footer_ul2_amrc li a:hover {
+  text-decoration: none;
+}
+.footer_ul2_amrc li i {
+  margin-top: 5px;
+}
+.social_footer_ul {
+  display: table;
+  /*margin: 15px auto 0 auto;*/
+  list-style-type: none;
+}
+.social_footer_ul li {
+  padding-left: 5px;
+  padding-top: 10px;
+  float: left;
+}
+.social_footer_ul li a {
+  color: rgb(49, 47, 47);
+  border: 1px solid #ccc;
+  padding: 8px;
+  border-radius: 50%;
+}
+.social_footer_ul li i {
+  width: 20px;
+  height: 20px;
+}
